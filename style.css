@@ -1,0 +1,139 @@
+/*
+    1. needed to add hover on links and change the font family
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+body{
+    background-color: rgb(22, 21, 21);
+}
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color:chocolate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 96px;
+    font-size: 17px;
+}
+
+.topImage img{
+    width: 85vw;
+    height: 60vh;
+    margin-top: 1.5rem;
+    margin-left: 6.6rem;
+    border-radius: 25px;
+}
+.starImage{
+    margin-top: 0.2rem;
+    margin-left: 47%;
+}
+.heading{
+    color: white;
+    margin-top: 0.3rem;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 42%;
+}
+.l1{
+    margin-left: 21%;
+    margin-top: 1.5rem;
+}
+.l1 p{
+    color: white;
+}
+.para{
+    width: 60vw;
+    margin-left: 21%
+}
+.para h2{
+    color: rgb(5, 212, 129);
+    font-size: 23px;
+    text-decoration: underline;
+}
+.para p{
+    font-size: 17px;
+    color: white;
+}
+.para a{
+    font-size: 17px;
+    color: white;
+    text-decoration:solid, red;
+}
+#italic{
+    word-spacing: 2px;
+    font-size: 20px;
+    font-style: italic;
+}
+#add{
+    color: rgb(239, 178, 87);
+    cursor: pointer;
+}
+#tss{
+    color: rgb(74, 128, 228);
+    cursor: pointer;
+}
+#italic a{
+    word-spacing: 2px;
+    font-size: 20px;
+    font-style: italic;
+}
+.promoImage img{
+    width: 60vw;
+    height: 90vh;
+    margin-left: 21%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+#bbt{
+    color: rgb(21, 180, 180);
+    cursor: pointer;
+}
+#wh{
+    color: white;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(22, 21, 21);;
+    color: white;
+    margin-top: 5rem;
+    margin-left: 12rem;
+    padding: 28px;
+    word-spacing: 0.3rem;
+}
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
